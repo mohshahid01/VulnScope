@@ -1,0 +1,7 @@
+requests>=2.32,<3
+beautifulsoup4>=4.12,<5
+python-nmap>=0.7,<1
+Flask>=3.0,<4
+Jinja2>=3.1,<4
+urllib3>=2.2,<3
+packaging>=24,<27

@@ -1,0 +1,45 @@
+{
+  "allowed_hosts": [
+    "localhost",
+    "127.0.0.1",
+    "::1"
+  ],
+  "allowed_networks": [
+    "127.0.0.0/8",
+    "::1/128"
+  ],
+  "allow_public_ips_for_allowlisted_hosts": false,
+  "allowed_web_ports": [
+    80,
+    443,
+    5000,
+    8000,
+    8080,
+    8443
+  ],
+  "allowed_scan_ports": [
+    22,
+    80,
+    443,
+    5000,
+    8000,
+    8080,
+    8443,
+    3306,
+    5432
+  ],
+  "max_http_requests": 40,
+  "request_delay_seconds": 0.25,
+  "request_timeout_seconds": 6,
+  "directory_paths": [
+    "robots.txt",
+    "sitemap.xml",
+    "login",
+    "admin",
+    "api",
+    "health",
+    "status",
+    "docs",
+    "swagger"
+  ]
+}
